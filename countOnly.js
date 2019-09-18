@@ -11,14 +11,14 @@ const countOnly = function (allItems, itemsToCount) {
   
   for (const items of allItems) {
     if(itemsToCount[items]){
-    if (results[items]) {
-      results[items] += 1;
-    } else {
+      if (results[items]) {   
+        results[items] += 1;
+      } else {
       results[items] = 1;
+      }
     }
   }
   return results;
-}
 }
 
 const firstNames = [
