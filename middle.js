@@ -19,11 +19,12 @@
 //     console.log(`Unfortunately it is a fail!`)
 //   }
 // }
+const assertArrayEquals = require('./assertArrayEquals');
 
 
 
 const middle = function (array) {
-  let middleArray = Math.floor(array.length/2)
+let middleArray = Math.floor(array.length/2)
   if(array.length <= 2){
     return []
   } else if (array.length % 2 === 1){
@@ -35,9 +36,11 @@ const middle = function (array) {
 
 module.exports = middle;
 
+
+
 // console.log(middle([]))
 // console.log(middle([1, 2]))
-// console.log(middle([1, 2, 3]))
+// assertArrayEquals(middle([1, 2, 3]), [2])
 // console.log(middle([1, 2, 3, 4])) // => [2, 3]
 // console.log(middle([1, 2, 3, 4, 5]))
 // console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
