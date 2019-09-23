@@ -14,4 +14,6 @@ const tail = function (objectOne) {
   return mainTail
 }
 
+// const result = tail(["Hello", "Lighthouse", "Labs"]);
+
 module.exports = tail;
