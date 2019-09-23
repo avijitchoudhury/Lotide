@@ -1,24 +1,26 @@
-let eqArrays = function (arrayOne, arrayTwo) {
-  if (arrayOne.length !== arrayTwo.length) {
-    return false
-  }
+// let eqArrays = function (arrayOne, arrayTwo) {
+//   if (arrayOne.length !== arrayTwo.length) {
+//     return false
+//   }
 
-  for (var i = 0; i < arrayOne.length; i++) {
-    if (arrayOne[i] !== arrayTwo[i]) {
-      return false
-    }
-  }
-  return true
-}
+//   for (var i = 0; i < arrayOne.length; i++) {
+//     if (arrayOne[i] !== arrayTwo[i]) {
+//       return false
+//     }
+//   }
+//   return true
+// }
 
-const assertArrayEquals = function (arrayOne, arrayTwo) {
-  let assertion = eqArrays(arrayOne, arrayTwo);
-  if (assertion) {
-    console.log(`Great job! It works!`)
-  } else {
-    console.log(`Unfortunately it is a fail!`)
-  }
-}
+// const assertArrayEquals = function (arrayOne, arrayTwo) {
+//   let assertion = eqArrays(arrayOne, arrayTwo);
+//   if (assertion) {
+//     console.log(`Great job! It works!`)
+//   } else {
+//     console.log(`Unfortunately it is a fail!`)
+//   }
+// }
+
+
 
 const middle = function (array) {
   let middleArray = Math.floor(array.length/2)
@@ -31,9 +33,11 @@ const middle = function (array) {
 }
 }
 
-console.log(middle([]))
-console.log(middle([1, 2]))
-console.log(middle([1, 2, 3]))
-console.log(middle([1, 2, 3, 4])) // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5]))
-console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
+module.exports = middle;
+
+// console.log(middle([]))
+// console.log(middle([1, 2]))
+// console.log(middle([1, 2, 3]))
+// console.log(middle([1, 2, 3, 4])) // => [2, 3]
+// console.log(middle([1, 2, 3, 4, 5]))
+// console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
