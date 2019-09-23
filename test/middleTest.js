@@ -6,6 +6,9 @@ describe('#tail', () => {
   it('returns the middle index when an array as ODD number and the 2 middle index as EVEN number of indexes', () => {
     assert.deepEqual(middle([1, 2, 3]), [2])
   })
+  it('returns false when the middle array does not match the expected output', () => {
+    assert.notDeepEqual(middle([1, 2, 3, 4, 5]), [4])
+  })
 })
 
 
