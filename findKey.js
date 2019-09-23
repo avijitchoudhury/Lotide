@@ -24,6 +24,6 @@ const name = findKey({
   "Akelarre": { stars: 3 }
 }, x => x.stars === 2) // => "noma"
 
-console.log(name)
+// console.log(name)
 
 

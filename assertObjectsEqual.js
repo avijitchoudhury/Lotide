@@ -23,13 +23,13 @@ const assertObjectsEqual = function(actual, expected) {
   if (eqObjects(actual, expected) === true) {
     console.log(`✅✅✅ Assertion Pass: ${inspect(actual)} === ${inspect(expected)}`);
   } else {
-    console.log(`✅✅✅ Assertion Failed: ${inspect(actual)} !== ${inspect(expected)}`);
+    console.log(`❌❌❌ Assertion Failed: ${inspect(actual)} !== ${inspect(expected)}`);
   }
 }
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
-assertObjectsEqual(ab, ba);
+// assertObjectsEqual(ab, ba);
 
 const abc = { a: "1", b: "2", c: "3" };
-assertObjectsEqual(ab, abc);
+// assertObjectsEqual(ab, abc);

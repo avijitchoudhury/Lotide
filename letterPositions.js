@@ -39,5 +39,5 @@ const letterPositions = function (sentence) {
   }
 
 
-console.log(letterPositions('lighthouse in the house'))
-console.log(letterPositions('hello'))
+// console.log(letterPositions('lighthouse in the house'))
+// console.log(letterPositions('hello'))

@@ -6,8 +6,8 @@ const assertArrayEquals = require('../assertArrayEquals')
 
 
 
-assertArrayEquals([1, 2, 3], [1, 2, 3]); // => should PAS
-assertArrayEquals([1, 2, 3], [1, 2, 3, 4]); // => should fail
+// assertArrayEquals([1, 2, 3], [1, 2, 3]); // => should PAS
+// assertArrayEquals([1, 2, 3], [1, 2, 3, 4]); // => should fail
 
 // assertArrayEquals(middle([]), []) // true
 // assertArrayEquals(middle([1, 2]), []) // true
