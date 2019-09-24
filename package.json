@@ -23,7 +23,7 @@
   "_spec": "npm-run-path@^2.0.0",
   "_where": "/vagrant/w1/lotide/node_modules/execa",
   "author": {
-    "name": "Avijit Choudhury",
+    "name": "avijit.choudhury",
     "email": "avijit.choudhury24@gmail.com",
     "url": "https://www.npmjs.com/package/@avijit.choudhury/lotide "
   },
@@ -62,7 +62,7 @@
     "executable"
   ],
   "license": "MIT",
-  "name": "npm-run-path",
+  "name": "@avijit.choudhury/lotide",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sindresorhus/npm-run-path.git"
